@@ -15,19 +15,6 @@ Install:
 pip install opencv-python pillow numpy matplotlib
 ```
 
-## Folder Structure
-```
-repo/
-├── images/
-│   ├── lena_gray_256.tif
-│   ├── cameraman.tif
-│   ├── A.png
-│   └── B.png
-└── lab2/
-    ├── lab2_solution.ipynb
-    └── README.md
-```
-
 ## Tasks
 
 **Task 1 — Sampling & Quantization**
