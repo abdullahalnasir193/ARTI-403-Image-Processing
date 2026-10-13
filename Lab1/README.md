@@ -18,4 +18,3 @@
 - `lena_gray_256.tif` is a grayscale image, displayed with `cmap='gray'` and the intensity range 0–255.
 - OpenCV's default read produces a three-dimensional array; Pillow preserves this grayscale image as a two-dimensional array. NumPy abbreviates large arrays when printing.
 - Task #3 writes `new_image.jpg` and `new_image2.jpg` in this folder. JPEG is lossy, as in the manual's example.
-- The instructions provided here are in `STUDENT PROCEDURAL MANUAL - Lab 1.doc`; no PDF is included.
