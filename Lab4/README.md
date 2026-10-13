@@ -1,18 +1,16 @@
-# ARTI 404 Lab 4
+# ARTI 404 – Image Processing | Lab 4
 
-Open `Lab4_Solution.ipynb` in Jupyter and choose Run All. Outputs are already embedded.
+Intensity transformations and spatial-domain filtering (histogram processing).
 
-```sh
-python -m pip install -r requirements.txt
-jupyter notebook Lab4_Solution.ipynb
-```
+## Files
+- `Lab4.ipynb` – solutions for the three assessment tasks
+- `Lab4_Report.pdf` – report (notebook exported with outputs)
+- `images/` – images used (`moon.png`, `rocket.png`, `chelsea.png`, from `skimage.data`)
 
-Alternatively, run `python lab4_solution.py` from this folder. The notebook and script use the included PNG inputs, so no sample-image download is needed.
+## Tasks
+1. **Contrast stretching** – moon image rescaled to the 3rd–80th percentile range with `exposure.rescale_intensity`, histogram plotted.
+2. **Histogram equalization** – `exposure.equalize_hist` on the moon image, image and flattened histogram shown.
+3. **Histogram matching** – `exposure.match_histograms` with Chelsea as source and rocket as reference; per-channel histograms compared.
 
-- `Lab4_Report.pdf`: report covering the practice and all three assessment tasks.
-- `images/`: original moon, Chelsea and rocket images from skimage.data.
-- `results/`: comparison figures, transformed PNGs and exact floating-point NPY outputs.
-
-The package did not contain Parrot.png. Fixed thresholding uses moon unless you supply images/Parrot.png. Assessment tasks use the required images.
-
-Before submission, add your student details if required, upload this Lab4 folder to your GitHub repository, and submit its link via Blackboard. No GitHub upload or Blackboard submission has been performed.
+## Requirements
+Python 3, NumPy, Matplotlib, scikit-image.
